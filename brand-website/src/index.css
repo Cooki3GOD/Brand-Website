@@ -43,3 +43,49 @@ header {
         }
     }
 }
+
+main {
+    margin: 100px auto;
+    width: 80%;
+    display: flex;
+    .left {
+       display: flex;
+       flex-direction: column;
+       gap: 25px;
+       width: 50%;
+       h1 {
+        font-size: 60px;
+        font-weight: 900;
+       }
+       h3 {
+        font-size: 16px;
+        color: #5A5959;
+        font-weight: 500;
+        width: 50%;
+       }
+       .buttons {
+        display: flex;
+        width: 40%;
+        justify-content: space-around;
+       }
+       .shop-now {
+        background-color: #D01C28;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        cursor: pointer;
+       }
+       .category {
+        color: black;
+        background-color: transparent;
+        padding: 10px 20px; 
+        cursor: pointer;
+       }
+    }
+    .right {
+        width: 50%;
+        img {
+            width: 100%;
+        }
+    }
+}
